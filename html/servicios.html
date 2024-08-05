@@ -4,65 +4,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios - Zenith Digital</title>
-    <link rel="stylesheet" href="/css/estyle.css">
+    <!-- Enlace al CSS de Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Enlace a tu CSS personalizado -->
+    <link rel="stylesheet" href="../css/estyle.css">
 </head>
 <body>
-    <header>
-        <a href="../index.html">
-            <img class="logo" src="/img/logo definitivo.png" alt="Logo de Zenith">
-        </a>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="personal.html">Personal</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Servicios</h1>
-        <div class="grid-container">
-            <div class="grid-item">
-                <p>Community Manager</p>
-                <img class="fotoservicio" src="../img/cm desarrollo web.png" alt="CM foto">
-            </div>
-            <div class="grid-item">
-                <p>Desarrollo Web</p>
-                <img class="fotoservicio" src="../img/desarrollo web foto para pagina.png" alt="Desarrollo web foto">
-            </div>
-            <div class="grid-item">
-                <p>Edición de Video</p>
-                <img class="fotoservicio" src="../img/edicion de videos.png" alt="Edición de video foto">
+    <header class="bg-light p-3 mb-4">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-4">
+                    <a href="index.html">
+                        <img class="logo img-fluid" src="/img/Logo defenitivo 3.png" alt="Logo de Zenith">
+                    </a>
+                </div>
+                <div class="col-12 col-md-8">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="personal.html">Personal</a></li>
+                                <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                                <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
             </div>
         </div>
-        <section class="services">
-            <div class="service-item">
-                <div>
-                    <h2>¿Para qué te serviría contratar un Community Manager?</h2>
-                    <p class="fuente explicativo">Un community manager es el puente entre tu marca y tu audiencia en las redes sociales. Su rol principal es cultivar una comunidad activa y comprometida, gestionando la interacción con los usuarios, respondiendo preguntas, moderando debates y promoviendo contenido relevante. Además, el community manager ayuda a construir una imagen de marca sólida y favorable a través de estrategias de contenido y campañas específicas.</p>
+    </header>
+    <main>
+        <!-- Sección de Servicios -->
+        <section class="py-5">
+            <div class="container">
+                <h1 class="mb-4 text-center">Servicios</h1>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="../img/cm desarrollo web.png" alt="CM foto">
+                            <div class="card-body">
+                                <p class="card-text">Community Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="../img/desarrollo web foto para pagina.png" alt="Desarrollo web foto">
+                            <div class="card-body">
+                                <p class="card-text">Desarrollo Web</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="../img/edicion de videos.png" alt="Edición de video foto">
+                            <div class="card-body">
+                                <p class="card-text">Edición de Video</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
             </div>
-            <div class="service-item">
-                <div>
-                    <h2>¿Para qué te serviría contratar un Desarrollador Web?</h2>
-                    <p class="fuente explicativo">Un desarrollador web es fundamental para asegurar que tu presencia en línea sea sólida y efectiva. Desde la creación y mantenimiento de tu sitio web hasta la implementación de funcionalidades avanzadas, un desarrollador web no solo construye una plataforma robusta, sino que también optimiza la experiencia del usuario y asegura que tu sitio esté siempre actualizado y funcional.</p>
+        </section>
+
+        <!-- Detalles de los Servicios -->
+        <section class="bg-light py-5">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <h2>Community Manager</h2>
+                        <p>Un community manager es el puente entre tu marca y tu audiencia en las redes sociales. Su rol principal es cultivar una comunidad activa y comprometida, gestionando la interacción con los usuarios, respondiendo preguntas, moderando debates y promoviendo contenido relevante. Además, el community manager ayuda a construir una imagen de marca sólida y favorable a través de estrategias de contenido y campañas específicas.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="../img/community manager foto.png" class="img-fluid" alt="Community Manager">
+                    </div>
                 </div>
-                
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <img src="../img/desarrolador web foto.png" class="img-fluid" alt="Desarrollador Web">
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Desarrollador Web</h2>
+                        <p>Un desarrollador web es fundamental para asegurar que tu presencia en línea sea sólida y efectiva. Desde la creación y mantenimiento de tu sitio web hasta la implementación de funcionalidades avanzadas, un desarrollador web no solo construye una plataforma robusta, sino que también optimiza la experiencia del usuario y asegura que tu sitio esté siempre actualizado y funcional.</p>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <h2>Editor de Videos</h2>
+                        <p>Un editor de videos transforma ideas en contenido visual impactante. Desde la creación de videos promocionales y tutoriales hasta la edición de material audiovisual para redes sociales, un editor de videos no solo mejora la estética de tu marca, sino que también asegura que tu mensaje sea claro y atractivo. Con habilidades en efectos especiales, narrativa visual y optimización de formatos, un editor de videos puede llevar tu contenido digital al siguiente nivel.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="../img/editor de videos foto.png" class="img-fluid" alt="Editor de Videos">
+                    </div>
+                </div>
             </div>
-            <div class="service-item">
-                <div>
-                    <h2>¿Para qué te serviría contratar un Editor de Videos?</h2>
-                    <p class="fuente explicativo">Un editor de videos transforma ideas en contenido visual impactante. Desde la creación de videos promocionales y tutoriales hasta la edición de material audiovisual para redes sociales, un editor de videos no solo mejora la estética de tu marca, sino que también asegura que tu mensaje sea claro y atractivo. Con habilidades en efectos especiales, narrativa visual y optimización de formatos, un editor de videos puede llevar tu contenido digital al siguiente nivel.</p>
+        </section>
+
+        <!-- FAQs o Preguntas Frecuentes -->
+        <section class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Preguntas Frecuentes</h2>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5>¿Qué incluye el servicio de Community Manager?</h5>
+                        <p>El servicio de Community Manager incluye la gestión de redes sociales, creación y programación de contenido, interacción con la comunidad, moderación de comentarios, análisis de métricas y reporte de resultados.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <h5>¿Cómo puede ayudarme un desarrollador web?</h5>
+                        <p>Un desarrollador web puede ayudarte a crear un sitio web funcional y atractivo, optimizado para SEO, con una buena experiencia de usuario, y con todas las funcionalidades que tu negocio necesita para destacar en el mundo digital.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <h5>¿Qué tipo de videos pueden editar?</h5>
+                        <p>Podemos editar una amplia variedad de videos, incluyendo videos promocionales, tutoriales, videos para redes sociales, y más. Nuestro equipo se encarga de que cada video transmita el mensaje de tu marca de manera efectiva y atractiva.</p>
+                    </div>
                 </div>
-                
             </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; Zenith Digital - Todos los derechos reservados</p>
+    <footer class="bg-light text-center py-3">
+        <div class="container">
+            <p>&copy; Zenith Digital - Todos los derechos reservados</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Linkedin</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
     </footer>
+    <!-- Enlace a Bootstrap Bundle JS (que incluye Popper.js) -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
